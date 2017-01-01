@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "Use async funtions in ES6",
   "main": "index.js",
+  "config": {
+    "src": "src.js"
+  },
   "scripts": {
+    "prestart": "./build.sh",
+    "start": "node $npm_package_main",
     "test": "mocha"
   },
   "repository": {
